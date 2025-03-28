@@ -1,2 +1,5 @@
 ## Overview
-This project is my first learning task focused on practicing DOM manipulation. The assignment involved starting with a JSON file, converting it into a JavaScript object, and then dynamically generating webpage content using DOM concepts. This exercise provided hands-on experience in working with JSON data and dynamically updating the web page.
+This project focuses on practicing DOM manipulation. The assignment involved starting with a JSON file, converting it into a JavaScript object, and dynamically generating webpage content using DOM concepts.
+
+## Reference
+[Learn with Sumit - YouTube](https://www.youtube.com/watch?v=_WuDDnZMRiE&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy&index=101)
