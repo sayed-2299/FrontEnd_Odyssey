@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.nav {
+    background-color: rgb(48, 28, 28);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar img {
+    height: 40px;
+}
+
+.avatar p {
+    color: white;
+}
+
+.main {
+    width: 100%; 
+    overflow-x: hidden; 
+}
+
+.row1 {
+    background-color: rgb(58, 57, 57);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    width: 100%; /* Matches row2 width */
+}
+
+.col1 {
+    width: 70%;
+}
+
+.milestoneImage {
+    -webkit-transition: opacity 0.8s linear;
+    -moz-transition: opacity 0.8s linear;
+    transition: opacity 0.8s linear;
+    opacity: 1; /* Set initial opacity */
+    width: 100%; /* From .col1 img */
+    height: 500px; /* From .col1 img */
+}
+.col2 {
+    width: 25%;
+    min-height: auto;
+    background-color: rgb(179, 174, 174);
+    overflow-y: auto;
+    max-height: 500px;
+    height: fit-content;
+}
+
+.full-content {
+    border-bottom: 1px solid black;
+}
+
+.content {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    gap: 5%;
+}
+
+.hidden_panel {
+    display: none;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.module {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.row2 {
+    background-color: rgb(58, 57, 57);
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end; /* Keeps hidden div right-aligned */
+    width: 100%; /* Matches row1 width */
+    max-width: 100%; /* Prevents exceeding container */
+}
+
+.hidden {
+    width: 25%;
+    min-height: auto;
+    background-color: rgb(179, 174, 174);
+    overflow-y: auto;
+    max-height: 500px;
+    height: fit-content;
+}
+
+
